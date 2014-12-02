@@ -3,6 +3,7 @@ module.exports = {
   concat: require('./concat'),
   copy: require('./copy'),
   env: require('./env'),
+  imagemin: require('./imagemin'),
   jshint: require('./jshint'),
   karma: require('./karma'),
   mocha_istanbul: require('./mocha_istanbul'),

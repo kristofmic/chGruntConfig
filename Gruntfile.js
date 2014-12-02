@@ -34,6 +34,7 @@ function gruntConfig(grunt) {
 
   grunt.registerTask('build:dev', [
     'copy',
+    'imagemin',
     'ngtemplates',
     'concat',
     'sass:dev'
